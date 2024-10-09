@@ -1,0 +1,82 @@
+/* Struk Styles */
+body{
+    background: #e9ecef;
+    font-family: 'Poppins';
+}
+.struk-container {
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    font-family: 'Poppins', sans-serif;
+}
+
+.struk-header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #610000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.struk-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+.struk-table th, .struk-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+.struk-table th {
+    background-color: #610000;
+    color: #fff;
+}
+
+
+.struk-total {
+    text-align: right;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.struk-action {
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Memperbaiki styling tombol */
+.struk-button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #610000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 5px; /* Memberikan sedikit jarak antar tombol */
+}
+
+.struk-button:hover {
+    background-color: #B60000;
+    transform: translateY(-2px); /* Efek sedikit terangkat saat di-hover */
+}
+
+/* Container untuk tombol untuk menambahkan lebih banyak kontrol layout */
+.button-container {
+    display: flex;
+    justify-content: space-around; /* Menyebarkan tombol secara merata */
+}
+
+/* Mengatur margin pada setiap baris dan lebih rapi */
+.struk-table tr {
+    transition: background-color 0.3s;
+}
+

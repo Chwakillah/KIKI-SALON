@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #610000;
+    width: 150px;
+    padding: 20px;
+    z-index: 1000;
+    justify-content: center; 
+    display: flex;
+    justify-content: center; /* Posisikan item secara horizontal di tengah */
+    align-items: center;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li {
+    margin-bottom: 30px;
+}
+
+.navigation ul li img{
+    position: absolute;
+    top: 20px; 
+    left: 80px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    justify-content: center; 
+    text-align: center;
+}
+
+.navigation ul li a:hover {
+    text-decoration: solid;
+}
+
+.container {
+    margin-left: 250px;
+}
+
+.profile-header {
+    position: relative;
+    display: flex;
+    align-items: center; 
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 40px;
+}
+
+.profile-header img {
+    width: 25px;
+    height: auto;
+    background-color: transparent;
+    margin-right: 10px; 
+}
+
+.profile-header h1 {
+    align-items: left;
+    color: #610000;
+    font-size: 32px; 
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    margin-right: 400px;
+    margin-top: 50px;
+    border-radius: 50%;
+    background-image: url('../img/paket1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 10px;
+    left: 800px;
+}
+
+#edit-profile-pic {
+    display: none;
+    position: absolute;
+    right: 85px;
+    top: 65px;
+    width: 50px;
+    color: white;
+    font-weight: bold;
+    background-color: #610000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.profile {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.profile-info {
+    text-align: left;
+    margin-bottom: 50px; 
+    margin-left: 20px;
+}
+
+.info-item {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.profile-info .info-item input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2px;
+    width: 30%;
+    height: 25px;
+    display: inline-block; /* Mengubah display menjadi inline-block agar dapat menerapkan padding */
+    margin-top: 2px;
+    font-size: 16px;
+    padding-left: 25px; 
+}
+
+.profile-info .info-item.editing input::placeholder {
+    opacity: 0.5;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #610000;
+    font-size: 26px; 
+}
+
+.profile-actions {
+    margin-top: 15px; 
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+#edit-button {
+    background-color: #610000; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    width: 110px;
+}
+
+#edit-button:hover {
+    background-color: darkred; 
+}
+
+#save-button {
+    background-color: #610000; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    width: 110px;
+}
+
+#save-button:hover {
+    background-color: darkred; 
+}
+
+#cancel-button {
+    background-color: white; 
+    color: #610000; 
+    border: 1px solid #610000; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    width: 110px;
+}
+
+#cancel-button:hover {
+    background-color: darkred; 
+}
+

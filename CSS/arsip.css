@@ -1,0 +1,330 @@
+html{
+    scroll-behavior: smooth; 
+    font-family: Poppins !important;
+}
+body{
+    font-family: Poppins;
+}
+section{
+    height: 100vh;
+    font-family: Poppins;
+}
+.section1{
+    background-image: url(../img/section1.png);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.section1 div{ 
+    color: #610000;
+    font-weight: bold;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+    line-height: 1.3;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-family: Poppins;
+    transform: translate(-50%, -50%);   
+    width: 520px;
+}
+.section2{
+    background-color: #120000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 250px 0 250px;
+    font-family: Poppins;
+}
+.section2 .text{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px 0 0;
+    gap: 20px;
+}
+.section2 .text h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+}
+.section2 .text p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.section2 img{
+    width: 550px;
+    height: 400px;
+}
+.section3{
+    background-color: #F8E6E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px 300px 0 300px;
+    font-family: Poppins;
+    color: #610000;
+
+}
+.section3 .container{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.section3 .paket{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+    gap: 20px;
+    transition: opacity 0.5s ease;
+}
+#paket1{
+    display: flex;
+}
+#paket2{
+    display: none;  
+}
+#paket3{
+    display: none;
+}
+.section3 .img{
+    border-radius: 15px;
+    width: 1000px;
+    height: 350px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.section3 .img:hover {
+    transform: scale(1.03) rotateY(5deg) rotateX(5deg);
+}
+
+#paket1 .img{
+    background-image: url(../img/paket1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#paket2 .img{
+    background-image: url(../img/paket2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+#paket3 .img{
+    background-image: url(../img/paket3.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.section3 h1{
+    font-weight: bold;
+    font-size: 56px;
+    padding: 0 0 30px 0 ;
+    text-align: center;
+    color: #610000;
+}
+
+.section3 .title{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #610000;
+    cursor: pointer;
+}
+.section3 .sub{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #AE4E4E;
+    cursor: pointer;
+}
+.section3 .text p{
+    line-height: 1.5;
+    color: #610000;
+}
+.section3 .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section4{
+    background-color: #F8E6E6;
+    /* background-color: aqua; */
+    padding: 80px 300px 0 300px;
+    font-family: Poppins;
+}
+.section4 .promo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    padding: 45px;
+    border-radius: 25px;
+    gap: 5px;
+}
+.section4 .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F8E6E6;
+    gap: 30px;
+}
+.section4 h1{
+    font-weight: bold;
+    font-size: 56px;
+    padding: 0 0 20px 0;
+    text-align: center;
+    color: #610000;
+    line-height: 1.3;
+}
+.section4 .img{
+    background-image: url(../img/section4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 440px;
+    height: 300px;
+    border-radius: 20px;
+}
+.section4 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 40px 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background: #FFF;
+}
+.section4 .text h2{
+    font-weight: 700;
+    font-size: 32px;
+    color: #B60000;
+    
+}
+.section4 .text h3{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+.section4 .text h1{
+    font-weight: 700;
+    font-size: 48px;
+    padding: 0;
+    color: #B60000;
+}
+.section4 .text .button{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 14px 20px;
+    background-color: #B60000;
+}
+.section4 .text .button a{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+.section4 .text .button:hover{
+    background-color: #240000;
+    transition: 0.2s;
+}
+.section4 a{
+    text-decoration: none;
+    color: #B60000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.section4 a:hover{
+        color: #240000;
+        transition: 0.2s;
+}
+footer{
+    background-color: #610000;
+    display: flex;
+    font-family: Poppins;
+}
+footer img{
+    height: 40px;
+    width: 222.5px;
+}
+
+footer .footer-atas{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    font-family: Poppins;
+}
+footer .footer-kiri{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+footer .footer-kanan{
+    display: flex;
+    gap: 75px;
+}
+.footer-kanan .footer-sosmed{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-weight: 700;
+    gap: 25px;
+}
+.footer-sosmed .sosmed{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 400;
+}
+.footer-kanan .footer-pages{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-weight: 700;
+    gap: 25px;
+}
+.footer-pages .pages{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+    font-weight: 400;
+}
+footer a, footer p, footer li{
+    color: #F0CCCC;
+    text-decoration: none;
+
+}
+footer .footer-bawah{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 45px;
+    font-family: Poppins;
+}
+footer .footer-bawah p{
+    color: #FFFFFF;
+}
+
+footer a:hover{
+    color: #240000;
+    transition: 0.2s;
+}

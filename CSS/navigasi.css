@@ -1,0 +1,159 @@
+  html{
+      scroll-behavior: smooth;
+      font-family: Poppins;
+  } 
+  header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  nav {
+    background-color: #610000;
+    padding: 0px 73px;
+    font-family: Poppins;
+  }
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .menu-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-link a:hover {
+    color: #ffffff;
+  }
+  
+  .menu-link a::after {
+    content: "";
+    display: flex;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #ffffff;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+  }
+  
+  .menu-link a:hover::after {
+    transform: scaleX(0.5);
+  }
+  
+  .navbar .navbar-extra a {
+    color: #fff;
+    margin: 0 0.5rem;
+  }
+  
+  .navbar .navbar-extra a:hover {
+    color: var(--primary);
+  }
+  
+  .container {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 75px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    font-family: Poppins;
+    /* padding: 13px 127px 11px 28px; */
+    font-size: 38px;
+    color: #ffffff;
+    gap: 13px;
+  }
+  .menu img{
+    width: auto;
+    height: 40px;
+  }
+  
+  .menu-empat-menu {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    gap: 42px;
+  }
+  
+  .login {
+    /* margin-left: auto; */
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    background: #B60000;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+  }
+  .login img {
+    width: 20px;
+    height: 20px;
+  }
+  .login .login-user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  /* .menu-link a:hover{
+    font-weight: bold;
+  } */
+  .login:hover{
+    background-color: #240000;
+    color: #ffffff;
+  }
+  .login {
+    position: relative;
+  }
+
+.login-overlay {
+    position: absolute; /* Warna latar belakang overlay */ /* Border overlay */
+    z-index: 1; /* Pastikan overlay muncul di atas elemen lain */
+    left: 0;
+    right: 0;
+    display: none;
+}
+.login-overlay a{
+  display: none; /* Sembunyikan overlay secara default */
+}
+
+.login:hover .login-overlay{
+    display: flex; /* Tampilkan overlay ketika elemen .login di-hover */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #240000;
+    color: #ffffff;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 5px;
+    gap : 10px;
+    font-size: 16px;
+    
+}
+.login:hover .login-overlay a{
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+}
+.login:hover .login-overlay a:hover{
+  background-color: #B60000;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.login:hover .login-overlay a{
+    color: #ffffff;
+}
+
+  .menu-link a.active {
+    font-weight: bold;
+  }
+
+  

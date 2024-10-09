@@ -1,0 +1,77 @@
+/* Base layout and typography */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #e9ecef;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+.confirmation-title {
+    color: #610000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.confirmation-section article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.confirmation-section h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.confirmation-section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.confirmation-section p strong {
+    color: #333;
+    font-weight: 600;
+}
+
+.payment-form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.payment-form button {
+    width: 100%;
+    background-color: #b60000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.payment-form button:hover {
+    background-color: #610000;
+}
