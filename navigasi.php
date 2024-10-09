@@ -50,7 +50,7 @@ $conn->close();
                     <a href="index.php#section2" class="scroll-link" data-target="section2">Perawatan</a>
                 </div>
                 <div class="menu-link">
-                    <a href="index.php#section3" class="scroll-link" data-target="section3">Promo</a>
+                    <a href="index.php#section3" class="scroll-link" data-target="section3">Diskon</a>
                 </div>
                 <div class="menu-link">
                     <a href="index.php#section4" class="scroll-link" data-target="section4">Pesan</a>
