@@ -36,7 +36,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['user_id'])) {
         </div>
     </div>
     <div class="treatment-section2">
-        <h1>Popular Product</h1>
+        <h1>Layanan Populer</h1>
         <div class="listimg">
         <?php 
 			$qry4=mysqli_query($conn,"SELECT * FROM treatment ORDER BY Jenis_Treatment");
